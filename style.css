@@ -20,15 +20,43 @@ body{
     margin-right: 10px;
     margin-bottom: 20px;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: blue;
+}
+
+a:visited{
+    color: blueviolet;
+}
+.button{
+    background-color: rgb(22, 73, 73);
+    color: beige;
+    padding: 10px;
+    border: none;
+}
+.button:hover{
+    background-color: black;
+    color: lightsalmon;
+}
+
 .box-1{
-    background-color: #333;
+    background-color: rgb(148, 21, 21);
     color: white;
     /* border-right: 5px red solid;
     border-left: 5px red solid;
     border-top: 5px red solid;
     border-bottom: 5px red solid; */
 
-    border: 5px red solid;
+    border: 10px red solid;
 
     /* padding-top: 20px;
     padding-left: 20px;
@@ -104,4 +132,18 @@ body{
 
 .categories ul li{
     border-bottom: 1px dotted red;
+    /* list-style-image: url("../images/checkmark.png"); */
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+.my-form input[type="text"], 
+.my-form textarea {
+    padding: 8px;
+    width: 100%;
 }
